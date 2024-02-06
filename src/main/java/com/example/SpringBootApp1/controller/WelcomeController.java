@@ -18,4 +18,8 @@ public class WelcomeController {
 		c = a - b;
 		return c;
 	}
+
+	public String message() {
+		return "dev branch";
+	}
 }
